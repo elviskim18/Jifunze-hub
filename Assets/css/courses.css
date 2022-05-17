@@ -93,9 +93,7 @@ section {
   text-decoration: none;
   margin: 5px 5px 15px 5px;
 }
-.fa {
-  text-decoration: overline underline;
-}
+
 .checked {
   color: orange;
 }
