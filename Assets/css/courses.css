@@ -66,7 +66,12 @@ section {
   text-decoration: none;
   margin: 5px 5px 15px 5px;
 }
-
+.fa {
+  text-decoration: overline underline;
+}
+.checked {
+  color: orange;
+}
 .appDev, .data-science, .Database, .cloud {
   background-color: white;
   margin: 50px 70px;
