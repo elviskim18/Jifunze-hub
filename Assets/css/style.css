@@ -137,3 +137,36 @@ main{
     padding: 20px 55px;
     border-radius: 10px;
 }
+
+.footer{
+    background-color: darkslategrey;
+    padding: 30px 100px;
+}
+
+.footer > .footer-header > .header-info > h1{
+    font-size: 35px;
+    color: white;
+}
+
+.footer > .footer-header > .header-info > p{
+    font-size: 20px;
+    color: white;
+}
+
+.footer > .footer-header > .footer-contents{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 40px;
+}
+
+.footer > .footer-header > .footer-contents > .content > ul{
+    list-style-type: none;
+}
+
+.footer > .footer-header > .footer-contents > .content > ul > li > a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
