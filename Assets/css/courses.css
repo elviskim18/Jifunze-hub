@@ -41,6 +41,20 @@ section {
   border-radius: 20px 20px 0 0;
 }
 
+.heading h1, .heading p {
+  text-align: center;
+  padding: 10px;
+  color: #0e8d3f;
+  font-size: large;
+  font-weight: bold;
+  
+}
+.heading h1 {
+  font-size: xx-large;
+  margin-top: 20px;
+  text-shadow: 3px 3px 3px rgb(22, 12, 12);
+  color: ;
+}
 .courses h4, #rating {
   font-size: larger;
   text-decoration: none;
