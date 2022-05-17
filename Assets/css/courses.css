@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+
+
+}
+
+section {
+  background-color: #EADDDD;
+  width: 100%;
+}
+
+.navbar > .navbar-nav{
+  display: flex;
+  justify-content: space-between;
+}
+.navbar > .navbar-nav > .logo{
+  display: flex;
+  align-items: center;
+}
+.navbar > .navbar-nav > .nav-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.navbar > .navbar-nav > .nav-items > ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-direction: row;
+  font-size: 20px;
+  margin-right: 100px;
+}
+.navbar > .navbar-nav > .nav-items > ul > li > a{
+  text-decoration: none;
+  padding: 0 80px;
+  color: black;
+  border-right: 2px solid black;
+}
+.navbar > .navbar-nav > .nav-items > ul > li > a:hover{
+  color: green;
+}
+.navbar > .navbar-nav > .nav-items > ul > li > button {
+  margin-left: 10px;
+  background-color: #4ECB71;
+  padding: 15px 40px;
+  border: none;
+  font-size: 13px;
+  border-radius: 5px;
+  margin-top: -20px;
+}
+.navbar > .navbar-nav > .nav-items > ul > li > button:hover{
+  background-color: white;
+  color: green;
+}
+.navbar > .navbar-nav > .nav-items > ul > li > button > a{
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+}
+.navbar > .navbar-nav > .nav-items > ul > li > button > a:hover{
+  color: green;
+}
+
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.courses img {
+  width: 300px;
+  height: 250px;
+  border-radius: 20px 20px 0 0;
+}
+
+.heading h1, .heading p {
+  text-align: center;
+  padding: 10px;
+  color: #0e8d3f;
+  font-size: large;
+  font-weight: bold;
+  
+}
+.heading h1 {
+  font-size: xx-large;
+  margin-top: 20px;
+}
+.courses h4, #rating {
+  font-size: larger;
+  text-decoration: none;
+  margin: 5px 5px 15px 5px;
+}
+.fa {
+  text-decoration: overline underline;
+}
+.checked {
+  color: orange;
+}
+
+#arrow a {
+  font-size: 15px;
+  background-color: #7a6a6a;
+  color: #FAFF47;
+  padding: 8px;
+  border-radius: 10px;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+#arrow span {
+  color: rgb(205, 248, 12);
+}
+
+.appDev, .data-science, .Database, .cloud {
+  background-color: white;
+  margin: 50px 70px;
+  text-align: center;
+  width: 300px;
+  padding: 20px 20px 20px 20px;
+  border-radius: 20px;
+}
+
+h4 {
+  font-size: 30px;
+  color: #000000;
+  font-weight: bolder;
+}
+
+a:hover {
+  color: rgb(172, 59, 187);
+}
+
+.text {
+  min-height: 110px;
+}
+
+.duration, .cost {
+  background-color: #EADDDD;
+  margin: 10px 0 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.cost {
+  margin-bottom: 20px;
+}
+span {
+  font-weight: bolder;
+  font-size: larger;
+}
+
+
+.footer{
+  background-color: black;
+  padding: 30px 100px;
+  width: 100%;
+}
+.footer > .footer-header > .header-info > h1{
+  font-size: 35px;
+  color: white;
+}
+.footer > .footer-header > .header-info > p{
+  font-size: 20px;
+  color: white;
+}
+.footer > .footer-header > .footer-contents{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 40px;
+}
+.footer > .footer-header > .footer-contents > .content > ul{
+  list-style-type: none;
+}
+.footer > .footer-header > .footer-contents > .content > ul > li > a{
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+.footer > .footer-header > .footer-contents > .content > ul > li > a:hover{
+  text-decoration: underline;
+  color: #4ECB71;
+}
+.footer > .footer-header > .footer-contents > .social-icons > a{
+  color: white;
+}
