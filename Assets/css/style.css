@@ -2,14 +2,16 @@ body{
     margin: 0;
     padding: 0;
     background-color: #EADDDD;
+    font-family: 'Nunito', sans-serif;
 }
 
 main{
-    margin: 30px 0;
+    margin: 30px 120px 30px 50px;
 }
 
 .navbar > .navbar-nav{
     display: flex;
+    justify-content: space-between;
 }
 
 .navbar > .navbar-nav > .logo{
@@ -22,32 +24,89 @@ main{
     display: flex;
     flex-direction: row;
     align-items: center;
-    float: right;
+    
 }
 
 .navbar > .navbar-nav > .nav-items > ul{
     list-style-type: none;
-    display: inline-block;
+    display: flex;
     flex-direction: row;
-}
-
-.navbar > .navbar-nav > .nav-items > ul > li{
+    justify-content: space-evenly;
+    flex-direction: row;
+    font-size: 20px;
+    margin-right: 100px;
+    
 }
 
 .navbar > .navbar-nav > .nav-items > ul > li > a{
     text-decoration: none;
-    padding: 0 20px;
+    padding: 0 80px;
     color: black;
 }
 
-.navbar > .navbar-nav > .nav-items > ul > li > button {
-    background-color: green;
-    border: none;
+.navbar > .navbar-nav > .nav-items > ul > li > a:hover{
+    color: green;
+}
 
+.navbar > .navbar-nav > .nav-items > ul > li > button {
+    background-color: #4ECB71;
+    padding: 15px 40px;
+    border: none;
+    font-size: 13px;
+    border-radius: 10px;
+
+}
+
+.navbar > .navbar-nav > .nav-items > ul > li > button:hover{
+    background-color: white;
+    color: black;
 }
 
 .navbar > .navbar-nav > .nav-items > ul > li > button > a{
     color: black;
     text-decoration: none;
-    padding: 25px 30px;
+    padding: 25px 40px;
+}
+
+/* section-1 styling */
+.section-1 > .section-header{
+    padding: 30px 50px 30px 0;
+    display: flex;
+    height: 60vh;
+    justify-content: space-between;
+}
+
+.section-1 > .section-header > .get-started{
+    text-align: center;
+    padding: 100px 50px 0 120px;
+    line-height: 40px;
+}
+
+.section-1 > .section-header > .get-started > h1{
+    font-size: 50px;
+}
+
+.section-1 > .section-header > .get-started > p{
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.section-1 > .section-header > .get-started > button{
+    background-color: #4ECB71;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 30px 50px;
+    font-size: 20px;
+}
+
+.section-1 > .section-header > .get-started > button:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.section-1 > .section-header > .homepage-image > img{
+    max-width: 100%;
+    max-height: 100%;
 }
