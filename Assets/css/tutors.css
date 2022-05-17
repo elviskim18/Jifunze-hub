@@ -1,0 +1,66 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #EADDDD;
+}
+.header{
+    height: 15vh;
+    background-color: red;
+    
+}
+.tcontainer{
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    overflow: hidden;
+    overflow-x: auto;
+    
+}
+/*Add scroll bar in chrome*/
+.tcontainer::-webkit-scrollbar{
+    display: none;
+}
+/*Add scroll bar in firefox*/
+.tcontainer{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.tutprofile{
+    height: 80vh;
+    background-color:#7ADD9E;
+    margin-top: 10%;
+    margin-left: 40px;
+    border-radius: 30px;
+
+    
+}
+.tutprofile img{
+    height: 280px;
+    width: 420px;
+    
+    border-radius: 15px;
+}
+.tutprofile h3{
+    font-weight: 500;
+    margin-left: 9px;
+}
+#bio{
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: solid rgba(124, 122, 122, 0.253);
+}
+.tutprofile p{
+    margin: 10px;
+}
+#book-btn{
+    padding: 20px 30px;
+    background-color: #FAFF47;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 35px;
+    box-shadow: 4px 3px #9b989a
+}
+#book-btn:hover{
+    background-color: #185f34;
+}
