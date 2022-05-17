@@ -10,7 +10,13 @@ section {
 
 .header, .logo, .row{
   display: flex;
+}
 
+
+
+
+.row {
+  justify-content: center;
 }
 
 .logo img {
@@ -21,6 +27,14 @@ section {
 .courses img {
   width: 300px;
   height: 250px
+}
+
+.appDev, .data-science, .Database, .cloud {
+  background-color: white;
+  margin: 20px;
+  text-align: center;
+  width: 320px;
+  padding: 10px;
 }
 
 footer {
