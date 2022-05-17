@@ -59,13 +59,17 @@ main{
 
 .navbar > .navbar-nav > .nav-items > ul > li > button:hover{
     background-color: white;
-    color: black;
+    color: green;
 }
 
 .navbar > .navbar-nav > .nav-items > ul > li > button > a{
     color: black;
     text-decoration: none;
-    padding: 25px 40px;
+    padding: 25px 20px;
+}
+
+.navbar > .navbar-nav > .nav-items > ul > li > button > a:hover{
+    color: green;
 }
 
 /* section-1 styling */
@@ -102,11 +106,34 @@ main{
 
 .section-1 > .section-header > .get-started > button:hover{
     background-color: white;
-    color: black;
+    color: green;
 }
 
 
 .section-1 > .section-header > .homepage-image > img{
     max-width: 100%;
     max-height: 100%;
+}
+
+/* Summary section styling */
+.section-1 > .summary{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 100px 0;
+}
+
+.section-1 > .summary > .students{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700px;
+}
+
+.section-1 > .summary > .students > button{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    border: none;
+    padding: 20px 55px;
+    border-radius: 10px;
 }
