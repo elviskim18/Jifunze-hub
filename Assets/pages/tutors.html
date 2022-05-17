@@ -5,25 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/tutors.css">
+    <script src="https://kit.fontawesome.com/35cb1ea02e.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kurale&family=Nunito:wght@200&family=Roboto+Flex:opsz,wght@8..144,300&display=swap" rel="stylesheet">
     <title>Tutors</title>
 </head>
 <body>
-    <div class="header">
-        <h1>Jifunze</h1>
-        <nav>
-            <li>Home</li>
-            <li>Testimonials</li>
-            <li>Courses</li>
+    <header>
+        <!--navbar section-->
+        <nav class="navbar">
+            <div class="navbar-nav">
+                <div class="logo">
+                    <a href="#" style="display: flex; align-items: center; text-decoration: none; color: #4ECB71;">
+                        <img src="/Assets/images/book logo.svg" width="100px" height="100px" alt="jifunze">
+                        <h1>JIFUNZE</h1>
+                    </a>
+                </div>
+                <div class="nav-items">
+                    <ul>
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Courses</a>
+                        </li>
+                        <li>
+                            <a href="#">Testimonials</a>
+                        </li>
+                        <li>
+                            <button><a href="#">Login</a></button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-    </div>
+    </header>
     <div class="tcontainer">
         <div class="tutprofile">
             <img src="../images/tutor1.jpg" alt="tut1">
             <h3>Name: Emily Stone</h3>
-            <h3>Reviews: 6000</h3>
             <h3>Availability: Open</h3>
-            <h3>Rate: 12$/hour</h3>
+            <h3>Rate: $12/hour</h3>
+            <h3><i class="fa-solid fa-people-group"></i> : 3000 students</h3>
             <h4 id="bio">BIO</h4>
+            
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto vel nihil soihin oafhioifO OAFH</p>
             <button id="book-btn">BOOK NOW</button>
  
@@ -31,9 +57,9 @@
         <div class="tutprofile">
             <img src="../images/tutor2.jpg" alt="tut2">
             <h3>Name: Sandra Joy</h3>
-            <h3>Reviews: 4400</h3>
             <h3>Availability: Booked</h3>
-            <h3>Rate: 10$/hour</h3>
+            <h3>Rate: $10/hour</h3>
+            <h3><i class="fa-solid fa-people-group"></i> : 1500 students</h3>
             <h4 id="bio">BIO</h4>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto vel nihil soihin oafhioifO OAFH</p>
             <button id="book-btn">BOOK NOW</button>
@@ -43,9 +69,9 @@
         <div class="tutprofile">
             <img src="../images/tutor6.jpg" alt="tut3">
             <h3>Name: Vini Otieno</h3>
-            <h3>Reviews: 2300</h3>
             <h3>Availability: Open</h3>
-            <h3>Rate: 15$/hour</h3>
+            <h3>Rate: $15/hour</h3>
+            <h3><i class="fa-solid fa-people-group"></i> : 3500 students</h3>
             <h4 id="bio">BIO</h4>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto vel nihil soihin oafhioifO OAFH</p>
             <button id="book-btn">BOOK NOW</button>
@@ -55,9 +81,9 @@
         <div class="tutprofile">
             <img src="../images/tutor7.jpg" alt="tut4">
             <h3>Name: Nelly Wambui</h3>
-            <h3>Reviews: 1500</h3>
             <h3>Availability: Booked</h3>
-            <h3>Rate: 8$/hour</h3>
+            <h3>Rate: $8/hour</h3>
+            <h3><i class="fa-solid fa-people-group"></i> : 2000 students</h3>
             <h4 id="bio">BIO</h4>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto vel nihil soihin oafhioifO OAFH</p>
             <button id="book-btn">BOOK NOW</button>
@@ -65,8 +91,36 @@
 
         </div>
     </div>
-    <div class="tfoot">
-        <h2>This will be the foot</h2>
-    </div>
+    <section class="footer">
+        <div class="footer-header">
+            <div class="header-info">
+                <h1>Teach the world online</h1>
+                <p>Create an online video course, teach students across the globe and earn money</p>
+            </div>
+            <!--footer contents-->
+            <div class="footer-contents">
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter-square"></i></a>
+                    <a href="#"><i class="fab fa-instagram-square"></i></a>
+                </div>
+                <div class="content">
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Help and Support</a></li>
+                    </ul>
+                </div>
+                <div class="content">
+                    <ul>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                        <li><a href="#">Accessibility Statement</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>

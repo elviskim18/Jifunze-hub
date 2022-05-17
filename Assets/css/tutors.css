@@ -1,21 +1,79 @@
-body{
+*{
+    font-family: 'Nunito', sans-serif;
     padding: 0;
     margin: 0;
+}
+.navbar > .navbar-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar > .navbar-nav > .logo{
+    display: flex;
+    align-items: center;
+}
+.navbar > .navbar-nav > .nav-items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navbar > .navbar-nav > .nav-items > ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-direction: row;
+    font-size: 20px;
+    margin-right: 100px;
+}
+.navbar > .navbar-nav > .nav-items > ul > li > a{
+    text-decoration: none;
+    padding: 0 80px;
+    color: black;
+    border-right: 2px solid black;
+}
+.navbar > .navbar-nav > .nav-items > ul > li > a:hover{
+    color: green;
+}
+.navbar > .navbar-nav > .nav-items > ul > li > button {
+    margin-left: 10px;
+    background-color: #4ECB71;
+    padding: 15px 40px;
+    border: none;
+    font-size: 13px;
+    border-radius: 5px;
+    margin-top: -20px;
+}
+.navbar > .navbar-nav > .nav-items > ul > li > button:hover{
+    background-color: white;
+    color: green;
+}
+.navbar > .navbar-nav > .nav-items > ul > li > button > a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+.navbar > .navbar-nav > .nav-items > ul > li > button > a:hover{
+    color: green;
+}
+
+/*body section*/
+body{
+    
     background-color: #EADDDD;
+    
 }
 .header{
     height: 15vh;
     background-color: red;
     
+    
 }
 .tcontainer{
-    height: 90vh;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 20px;
+    height: 100vh;
+    display: flex;
     overflow: hidden;
     overflow-x: auto;
-    
+    flex-direction: row;  
 }
 /*Add scroll bar in chrome*/
 .tcontainer::-webkit-scrollbar{
@@ -27,23 +85,23 @@ body{
     scrollbar-width: none;
 }
 .tutprofile{
-    height: 80vh;
+    height: 75vh;
+    width: 460px ;
     background-color:#7ADD9E;
-    margin-top: 10%;
+    margin-top: 5%;
     margin-left: 40px;
     border-radius: 30px;
-
-    
 }
 .tutprofile img{
     height: 280px;
-    width: 420px;
+    width: 460px;
     
     border-radius: 15px;
 }
 .tutprofile h3{
     font-weight: 500;
-    margin-left: 9px;
+    padding: 9px 10px;
+
 }
 #bio{
     text-align: center;
@@ -55,12 +113,53 @@ body{
 }
 #book-btn{
     padding: 20px 30px;
-    background-color: #FAFF47;
     border-radius: 10px;
-    margin-left: 50px;
+    margin-left: 30%;
     margin-top: 35px;
-    box-shadow: 4px 3px #9b989a
+    font-weight: 900;
+    background-color: white;
+    
 }
 #book-btn:hover{
     background-color: #185f34;
+}
+
+i{
+    color: white;
+}
+/*footer section*/
+
+.footer{
+    background-color: black;
+    padding: 30px 100px;
+}
+.footer > .footer-header > .header-info > h1{
+    font-size: 35px;
+    color: white;
+}
+.footer > .footer-header > .header-info > p{
+    font-size: 20px;
+    color: white;
+}
+.footer > .footer-header > .footer-contents{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 40px;
+}
+.footer > .footer-header > .footer-contents > .content > ul{
+    list-style-type: none;
+}
+.footer > .footer-header > .footer-contents > .content > ul > li > a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.footer > .footer-header > .footer-contents > .content > ul > li > a:hover{
+    text-decoration: underline;
+    color: #4ECB71;
+}
+.footer > .footer-header > .footer-contents > .social-icons > a{
+    color: white;
 }
