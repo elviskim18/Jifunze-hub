@@ -41,16 +41,60 @@ section {
   border-radius: 20px 20px 0 0;
 }
 
+.courses h4, #rating {
+  font-size: larger;
+  text-decoration: none;
+  margin: 5px 5px 15px 5px;
+}
+
 .appDev, .data-science, .Database, .cloud {
   background-color: white;
-  margin: 20px;
+  margin: 50px 70px;
   text-align: center;
   width: 300px;
   padding: 20px 20px 20px 20px;
   border-radius: 20px;
 }
 
+a {
+  text-decoration: none;
+  color: rgb(13, 13, 139);
+}
+a:hover {
+  color: rgb(172, 59, 187);
+}
+
+.text {
+  min-height: 110px;
+}
+
+.duration, .cost {
+  background-color: #EADDDD;
+  margin: 10px 0 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+span {
+  font-weight: bolder;
+  font-size: larger;
+}
+
+
 footer {
   background-color: black;
   color: white;
+  padding: 30px;
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+  margin: 10px;
+}
+footer li {
+  padding: 20px;
+}
+.links ul{
+  display: flex;
+  flex-direction: column;
 }
