@@ -128,7 +128,7 @@ body{
     justify-content: space-between;
     margin-top: 100px;
     border-radius: 90px;
-    gap: 30px;
+   
     
 
 }
@@ -140,10 +140,12 @@ body{
     justify-content: space-between;
     margin-top: 100px;
     border-radius: 90px;
+    padding-bottom: 30px;
    
 }
 /* footer */
 .footer{
+    margin-top: 80px;
     background-color: black;
     padding: 30px 100px;
 }
