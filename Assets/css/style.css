@@ -42,6 +42,7 @@ main{
     text-decoration: none;
     padding: 0 80px;
     color: black;
+    border-right: 2px solid black;
 }
 
 .navbar > .navbar-nav > .nav-items > ul > li > a:hover{
@@ -49,11 +50,13 @@ main{
 }
 
 .navbar > .navbar-nav > .nav-items > ul > li > button {
+    margin-left: 10px;
     background-color: #4ECB71;
     padding: 15px 40px;
     border: none;
     font-size: 13px;
-    border-radius: 10px;
+    border-radius: 5px;
+    margin-top: -20px;
 
 }
 
@@ -65,7 +68,7 @@ main{
 .navbar > .navbar-nav > .nav-items > ul > li > button > a{
     color: black;
     text-decoration: none;
-    padding: 25px 20px;
+    font-size: 15px;
 }
 
 .navbar > .navbar-nav > .nav-items > ul > li > button > a:hover{
@@ -139,7 +142,7 @@ main{
 }
 
 .footer{
-    background-color: darkslategrey;
+    background-color: black;
     padding: 30px 100px;
 }
 
@@ -168,5 +171,14 @@ main{
 .footer > .footer-header > .footer-contents > .content > ul > li > a{
     text-decoration: none;
     font-size: 20px;
+    color: white;
+}
+
+.footer > .footer-header > .footer-contents > .content > ul > li > a:hover{
+    text-decoration: underline;
+    color: #4ECB71;
+}
+
+.footer > .footer-header > .footer-contents > .social-icons > a{
     color: white;
 }
