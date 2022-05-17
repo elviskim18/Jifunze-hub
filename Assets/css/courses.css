@@ -95,10 +95,10 @@ section {
   border-radius: 20px;
 }
 
-a {
-  text-decoration: none;
-  color: rgb(13, 13, 139);
+h4 {
+  font-size: larger;
 }
+
 a:hover {
   color: rgb(172, 59, 187);
 }
