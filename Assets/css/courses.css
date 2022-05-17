@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "nunito";
 }
 
 section {
@@ -12,6 +13,11 @@ section {
   display: flex;
   justify-content: space-between;
   padding-top: 30px;
+}
+#sign {
+  background-color: #7ADD9E;
+  padding: 10px 15px;
+  border-radius: 10px;
 }
 
 .logo, h3{
