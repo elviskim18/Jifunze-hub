@@ -5,10 +5,17 @@
 }
 body{
     background-color: #EADDDD;
+    font-family: nunito;
+}
+.main-container{
+    margin-left: 70px;
 }
 .nav-container{
-    width: 1290px;
+    width: 1220px;
     height: 150px;
     background-color: white;
+}
+.head-container{
+    margin-top: 50px;
 }
 
