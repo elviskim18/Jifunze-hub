@@ -17,13 +17,19 @@ body{
     display: flex;
 
 }
+/* main container */
+.main-container{
+    justify-content: space-around;
+
+}
 /* image container 1 */
 .head-container{
     margin-top: 50px;
+    margin-left: 70px;
 }
 .container-holder{
     background-color: white;
-    width: 700px;
+    width: 690px;
     height: 300px;
     display: flex;
     justify-content: space-between;
@@ -61,5 +67,24 @@ body{
     font-size: 40px;
     color: #7ADD9E;
 
+}
+.container-holder1{
+    background-color: white;
+    width: 690px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    border-radius: 90px;
+
+}
+.container-holder2{
+    background-color: white;
+    width: 690px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    border-radius: 90px;
 }
 
