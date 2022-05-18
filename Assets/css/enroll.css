@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Nunito', sans-serif;
+  box-sizing: border-box;
 
 
 }
@@ -73,9 +74,36 @@ input:focus {
   outline: none;
 }
 
-t
+
+.tutor1 {
+  background-color: #4ECB71;
+  color: white;
+  font-weight: 900;
+  font-size: large;
+  padding: 15px 10px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 200px;
+}
+
+#arrow button {
+  background-color: #EADDDD;
+  color: black;
+  font-weight: 700;
+  cursor: pointer;
+}
+#arrow button:hover {
+background-color: #411313;
+color: white;
+cursor: pointer;
+}
 
 .enrol {
+  display: none;
   box-sizing: border-box;
   background-color: white;
   margin: auto;
@@ -83,9 +111,10 @@ t
   margin-bottom: 50px;
   margin-top: 50px;
   border-radius: 20px;
-  /* position: fixed;
-  right: 10px;
-  bottom: 10px;   */
+  border: 2px solid #4ECB71;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
 }
 .enroll {
   padding: 10px;
@@ -117,7 +146,7 @@ t
 
 #name, #email, #contact, #rate, #biography {
   padding: 10px;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   border: 1px solid #EADDDD;
   margin-bottom: 10px;
   width: 300px;
