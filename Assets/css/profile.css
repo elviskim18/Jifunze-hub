@@ -71,7 +71,7 @@ body{
 /* context container */
 .profile-container{
     width: 1000px;
-    height: 700px;
+    height: 800px;
     margin-right: 10%;
     background-color: white;
     border-radius: 50px;
@@ -89,6 +89,7 @@ body{
 .top-hero{
     display: flex;
     justify-content: space-between;
+    gap: 50px;
 }
 #txt1{
   margin-bottom: 40PX;
@@ -103,4 +104,26 @@ body{
     height: 40px;
     border-radius: 60px;
     background-color: #EADDDD;
+  }
+  .info{
+      width: 1000px;
+      height: 500px;
+      background-color: white;
+      border-radius: 60px;
+      margin-top: 80px;
+  }
+ 
+  #txt3, #txt4, #txt5, #txt6{
+        margin-bottom: 40PX;
+        width: 400px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: #EADDDD;
+        margin-top: 30px;
+     
+      
+  }
+  label{
+      margin-left: 30px;
+      font-weight: 500;
   }
