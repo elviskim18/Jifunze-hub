@@ -73,18 +73,19 @@ input:focus {
   outline: none;
 }
 
+t
+
 .enrol {
   box-sizing: border-box;
   background-color: white;
   margin: auto;
-  width: 359px;
+  width: 350px;
   margin-bottom: 50px;
   margin-top: 50px;
   border-radius: 20px;
-  background-image: url("../images/trial.jpg");
-  background-size:auto;
-  width: 90%;
-  height: auto;
+  /* position: fixed;
+  right: 10px;
+  bottom: 10px;   */
 }
 .enroll {
   padding: 10px;
@@ -109,12 +110,17 @@ input:focus {
 .form {
   margin: 10px;
 }
+
+#arrow {
+  margin-top: 10px;
+}
+
 #name, #email, #contact, #rate, #biography {
   padding: 10px;
   border-radius: 10px;
   border: 1px solid #EADDDD;
   margin-bottom: 10px;
-  width: 100%;
+  width: 300px;
 }
 #biography {
   height: 100px;
@@ -122,7 +128,7 @@ input:focus {
 }
 
 label {
-  font-weight: 700;
+  font-weight: 500;
   font-size: large;
 }
 

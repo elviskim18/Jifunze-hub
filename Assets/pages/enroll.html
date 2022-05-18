@@ -47,7 +47,10 @@
     
 
     <section class="enrol">
-      <div class="enroll">
+
+      <button class="tutor1" onclick="startForm()">Enrol as a Tutor</button>
+     
+      <div class="enroll" id="tutorForm">
         <div class="img">
           <img src="../images/avatar.png" alt="Avatar" class="avatar">
           <div>
@@ -73,7 +76,8 @@
               <input type="text" id="biography" name="school" placeholder=" i.e 'My name is John and I have been a tutor for...'" required><br>
               
               <div  id="arrow">
-                <a href="#"> Find a Tutor <span> &#x2192;</span></a> 
+                <a href="#"> Submit <span> &#x2192;</span></a>
+                <button type="button" class="formDown" onclick="closeForm()">Maybe Later</button> 
               </div>
             
           </form>
