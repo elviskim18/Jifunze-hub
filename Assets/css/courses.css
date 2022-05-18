@@ -6,7 +6,7 @@
 
 }
 
-section {
+.section {
   background-color: #EADDDD;
   width: 100%;
 }
@@ -54,6 +54,7 @@ section {
 .navbar > .navbar-nav > .nav-items > ul > li > button:hover{
   background-color: white;
   color: green;
+  border: 1px solid green;
 }
 .navbar > .navbar-nav > .nav-items > ul > li > button > a{
   color: black;
@@ -64,10 +65,13 @@ section {
   color: green;
 }
 
-
 .row {
   display: flex;
   justify-content: center;
+}
+
+.row p {
+text-align:justify;
 }
 
 .courses img {
@@ -100,12 +104,17 @@ section {
 
 #arrow a {
   font-size: 15px;
-  background-color: #7a6a6a;
-  color: #FAFF47;
+  background-color: #4ECB71;
+  color: black;
   padding: 8px;
   border-radius: 10px;
   font-weight: bolder;
   text-decoration: none;
+}
+#arrow a:hover{
+  background-color: white;
+  border: 1px solid green;
+  color: green;
 }
 
 #arrow span {
@@ -153,7 +162,6 @@ span {
 .footer{
   background-color: black;
   padding: 30px 100px;
-  width: 100%;
 }
 .footer > .footer-header > .header-info > h1{
   font-size: 35px;
