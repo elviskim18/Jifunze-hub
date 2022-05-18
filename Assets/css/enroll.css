@@ -70,7 +70,7 @@
 .enrol {
   background-color: white;
   margin: auto;
-  width: 50%;
+  width: 70%;
   margin-bottom: 50px;
   margin-top: 50px;
   border-radius: 20px;
@@ -97,8 +97,23 @@
   border-radius: 10px;
   border: 1px solid black;
   margin-bottom: 10px;
+  width: 400px;
+}
+#submit {
+  background-color: green;
+  padding: 10px 25px 10px 25px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 15px;
   
-} 
+}
+
+
+#submit a:hover {
+  background-color: white;
+  border: 1px solid green;
+
+}
 
 
 .footer{
