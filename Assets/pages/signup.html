@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login</title>
-    <link rel="stylesheet" href="/Assets/css/login.css">
+    <link rel="stylesheet" href="/Assets/css/signup.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Actor&family=Adamina&family=Nunito&family=Poppins&display=swap" rel="stylesheet">
@@ -19,8 +19,19 @@
                     <form class="login">
                         <div class="login__field">
                             <i class="login__icon fas fa-user"></i>
-                            <input type="text" class="login__input" placeholder="User name / Email">
+                            <input type="text" class="login__input" placeholder="First Name">
                         </div>
+
+                        <div class="login__field">
+                            <i class="login__icon fas fa-user"></i>
+                            <input type="text" class="login__input" placeholder="Last Name">
+                        </div>
+
+                        <div class="login__field">
+                            <i class="login__icon fas fa-user"></i>
+                            <input type="email" class="login__input" placeholder="Email">
+                        </div>
+
                         <div class="login__field">
                             <i class="login__icon fas fa-lock"></i>
                             <input type="password" class="login__input" placeholder="Password">
@@ -31,7 +42,7 @@
                         </button>
                         
                         <div class="login__field" style="width: 400px; padding: 10px 0;">
-                            <p id="create-account">Don't have an account? <a href="/Assets/pages/signup.html">create account</a></p>
+                            <p id="create-account">Already have an account? <a href="/Assets/pages/login.html">login</a></p>
                         </div>
                     </form>
                     <div class="social-login">

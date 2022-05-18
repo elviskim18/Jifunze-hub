@@ -98,7 +98,7 @@ body {
 .login__field > #create-account > p, a{
     font-size: 15px;
     text-decoration: none;
-    color: #4ECB71;
+    color: black;
     font-weight: 900;
 }
 
@@ -133,7 +133,7 @@ body {
 .login__submit {
 	background: #fff;
 	font-size: 14px;
-	margin-top: 30px;
+	margin-top: 0px;
 	padding: 16px 20px;
 	border-radius: 26px;
 	border: 1px solid #D4D3E8;
@@ -166,7 +166,7 @@ body {
 	height: 140px;
 	width: 160px;
 	text-align: center;
-	bottom: 0px;
+	bottom: -60px;
 	right: 0px;
 	color: #fff;
 }
