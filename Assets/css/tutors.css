@@ -72,7 +72,8 @@ body{
     display: flex;
     overflow: hidden;
     overflow-x: auto;
-    flex-direction: row;  
+    flex-direction: row;
+    
 }
 /*Add scroll bar in chrome*/
 .tcontainer::-webkit-scrollbar{
@@ -82,6 +83,11 @@ body{
 .tcontainer{
     -ms-overflow-style: none;
     scrollbar-width: none;
+}
+h3{
+    font-weight: bolder;
+    text-align: center;
+
 }
 .tutprofile{
     height: 75vh;
