@@ -71,8 +71,14 @@ body{
 /* context container */
 .profile-container{
     width: 1000px;
-    height: 500px;
+    height: 700px;
     margin-right: 10%;
     background-color: white;
     border-radius: 50px;
+}
+#logo-avatar{
+    width: 200px;
+    height: 70px;
+    margin-top: 70px;
+    z-index: 1000;
 }
