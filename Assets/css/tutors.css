@@ -86,7 +86,7 @@ body{
 .tutprofile{
     height: 75vh;
     width: 460px ;
-    background-color:#7ADD9E;
+    background-color:white;
     margin-top: 5%;
     margin-left: 40px;
     border-radius: 30px;
@@ -110,13 +110,16 @@ body{
 .tutprofile p{
     margin: 10px;
 }
+.tutprofile h3 i{
+    color: orange;
+}
 #book-btn{
     padding: 20px 30px;
     border-radius: 10px;
     margin-left: 30%;
     margin-top: 35px;
     font-weight: 900;
-    background-color: white;
+    background-color:#4ECB71;
     
 }
 #book-btn:hover{
