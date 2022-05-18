@@ -68,3 +68,11 @@ body{
 .navbar > .navbar-nav > .nav-items > ul > li > button > a:hover{
     color: green;
 }
+/* context container */
+.profile-container{
+    width: 1000px;
+    height: 500px;
+    margin-right: 10%;
+    background-color: white;
+    border-radius: 50px;
+}
