@@ -76,9 +76,31 @@ body{
     background-color: white;
     border-radius: 50px;
 }
-#logo-avatar{
-    width: 200px;
-    height: 70px;
-    margin-top: 70px;
-    z-index: 1000;
+.image-top img{
+    margin-top: 60px;
+    margin-left: 80px;
 }
+.text-top{
+    margin-right: 25%;
+    margin-top: 15%;
+  
+    
+}
+.top-hero{
+    display: flex;
+    justify-content: space-between;
+}
+#txt1{
+  margin-bottom: 40PX;
+  width: 400px;
+  height: 40px;
+  border-radius: 60px;
+  background-color: #EADDDD;
+}
+#txt2{
+    margin-bottom: 40PX;
+    width: 400px;
+    height: 40px;
+    border-radius: 60px;
+    background-color: #EADDDD;
+  }
