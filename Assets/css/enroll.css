@@ -95,6 +95,8 @@ input:focus {
   color: black;
   font-weight: 700;
   cursor: pointer;
+  margin-top: 10px;
+  padding: 10px;
 }
 #arrow button:hover {
 background-color: #411313;
@@ -142,6 +144,8 @@ cursor: pointer;
 
 #arrow {
   margin-top: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 #name, #email, #contact, #rate, #biography {
@@ -180,10 +184,11 @@ label {
   font-size: 15px;
   background-color: #4ECB71;
   color: black;
-  padding: 8px;
+  padding: 10px;
   border-radius: 10px;
   font-weight: bolder;
   text-decoration: none;
+  text-align: center;
 }
 #arrow a:hover{
   background-color: white;
