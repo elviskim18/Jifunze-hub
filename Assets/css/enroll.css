@@ -41,7 +41,7 @@
   border-right: 2px solid black;
 }
 .navbar > .navbar-nav > .nav-items > ul > li > a:hover{
-  color: green;
+  color: #4ECB71;
 }
 .navbar > .navbar-nav > .nav-items > ul > li > button {
   margin-left: 10px;
@@ -51,11 +51,13 @@
   font-size: 13px;
   border-radius: 5px;
   margin-top: -20px;
+  font-weight: 600;
 }
 .navbar > .navbar-nav > .nav-items > ul > li > button:hover{
   background-color: white;
-  color: green;
-  border: 1px solid green;
+  color: #4ECB71;
+  border: 1px solid #4ECB71;
+  font-weight: 900;
 }
 .navbar > .navbar-nav > .nav-items > ul > li > button > a{
   color: black;
@@ -63,7 +65,7 @@
   font-size: 15px;
 }
 .navbar > .navbar-nav > .nav-items > ul > li > button > a:hover{
-  color: green;
+  color: #4ECB71;
 }
 
 
@@ -111,7 +113,7 @@ label {
   font-size: large;
 }
 #submit {
-  background-color: green;
+  background-color: #4ECB71;
   padding: 10px 25px 10px 25px;
   border: none;
   border-radius: 10px;
@@ -119,7 +121,7 @@ label {
 }
 
 .enrol button {
-  background-color: green;
+  background-color: #4ECB71;
   padding: 3px 10px;
   border: none;
   border-radius: 5px;
@@ -127,10 +129,35 @@ label {
 
 #submit a:hover {
   background-color: white;
-  border: 1px solid green;
+  border: 1px solid #4ECB71;
 
 }
 
+#arrow a {
+  font-size: 15px;
+  background-color: #4ECB71;
+  color: black;
+  padding: 8px;
+  border-radius: 10px;
+  font-weight: bolder;
+  text-decoration: none;
+}
+#arrow a:hover{
+  background-color: white;
+  border: 1px solid #4ECB71;
+  color: #4ECB71;
+  font-weight: bolder;
+}
+
+#arrow span {
+  color: rgb(205, 248, 12);
+  font-weight: 900;
+}
+
+#arrow span a:hover {
+  color: black;
+  
+}
 
 .footer{
   background-color: black;
