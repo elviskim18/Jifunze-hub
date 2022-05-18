@@ -91,6 +91,7 @@ text-align:justify;
 .heading h1 {
   font-size: xx-large;
   margin-top: 20px;
+  font-weight:900;
 }
 .courses h4, #rating {
   font-size: larger;
