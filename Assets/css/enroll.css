@@ -68,8 +68,13 @@
   color: #4ECB71;
 }
 
+input:focus {
+  background-color: #ddd;
+  outline: none;
+}
 
 .enrol {
+  box-sizing: border-box;
   background-color: white;
   margin: auto;
   width: 370px;
@@ -91,7 +96,18 @@
   height: 100px;
   
 }
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
 
+.enrol > .enroll >.img {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid red;
+}
 
 .form {
   margin: 10px;
@@ -125,12 +141,18 @@ label {
   padding: 3px 10px;
   border: none;
   border-radius: 5px;
+  font-weight: 800;
+
+}
+
+.enrol button:hover {
+  background-color: white;
+  border: 1px solid #4ECB71;
 }
 
 #submit a:hover {
   background-color: white;
   border: 1px solid #4ECB71;
-
 }
 
 #arrow a {
@@ -152,11 +174,6 @@ label {
 #arrow span {
   color: rgb(205, 248, 12);
   font-weight: 900;
-}
-
-#arrow span a:hover {
-  color: black;
-  
 }
 
 .footer{
