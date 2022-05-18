@@ -87,7 +87,9 @@
 .enrol img {
   width: 100px;
   height: 100px;
+  
 }
+
 
 .form {
   margin: 10px;
@@ -95,13 +97,12 @@
 #name, #email, #contact, #rate, #biography {
   padding: 10px;
   border-radius: 10px;
-  border: 1px solid black;
+  border: 1px solid #EADDDD;
   margin-bottom: 10px;
   width: 300px;
 }
 #biography {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  height: 100px;
   position: top;
 }
 

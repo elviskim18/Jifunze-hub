@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Kurale&family=Nunito:wght@200&family=Roboto+Flex:opsz,wght@8..144,300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../css/enroll.css">
+  <link rel="stylesheet" href="../js/jifunze .js">
   <title>JIFUNZE</title>
 </head>
 <body>
@@ -50,19 +51,26 @@
           <button type="button" id="button">Edit Image</button>
         </div>
         <div class="form">
-          <form action="">
-            <label for="name"> First and Last Name</label> <br>
-            <input type="text" id="name" name="name" placeholder="John Doe" required><br>
-            <label for="email"> Email Address</label> <br>
-            <input type="email" id="email" name="email"  placeholder="johndoe@gmail.com" required><br>
-            <label for="contact"> Phone Number</label><br>
-            <input type="tel" id="contact" name="contact"  placeholder="+254701234567" required><br>
-            <label for="rate"> Set Up Your Hourly Rate ($)</label><br>
-            <input type="$" id="rate" name="rate" value="" placeholder="$12/hr" required><br>
-            <label for="biography"> About You</label><br>
-            <input type="text" id="biography" name="school" placeholder=" i.e 'My name is John and I have been a tutor for...'" required><br>
+          <form action="" id="form">
+            <div class="tutor">
+              <label for="name"> First and Last Name</label> <br>
+              <input type="text" id="name" name="name" placeholder="John Doe" required><br>
+              <i class="fas fa-check-circle"></i>
+              <i class="fas fa-exclamation-circle"></i>
+              <small>Invalid</small>
+            </div>
+              
+              <label for="email"> Email Address</label> <br>
+              <input type="email" id="email" name="email"  placeholder="johndoe@gmail.com" required><br>
+              <label for="contact"> Phone Number</label><br>
+              <input type="tel" id="contact" name="contact"  placeholder="+254701234567" required><br>
+              <label for="rate"> Set Up Your Hourly Rate ($)</label><br>
+              <input type="$" id="rate" name="rate" value="" placeholder="$12/hr" required><br>
+              <label for="biography"> About You</label><br>
+              <input type="text" id="biography" name="school" placeholder=" i.e 'My name is John and I have been a tutor for...'" required><br>
+              
+              <input type="button" id="submit" value="Enrol as a Tutor" onclick="">
             
-            <input type="button" id="submit" value="Enrol as a Tutor" onclick="">
           </form>
         </div>
       </div>
