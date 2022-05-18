@@ -95,6 +95,17 @@ body {
 	position: relative;	
 }
 
+.login__field > #create-account > p, a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #4ECB71;
+    font-weight: 900;
+}
+
+.login__field > #create-account > p, a:hover{
+    text-decoration: underline;
+}
+
 .login__icon {
 	position: absolute;
 	top: 30px;
