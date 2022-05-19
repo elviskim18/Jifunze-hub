@@ -33,13 +33,15 @@ function checkInputs () {
 
   if (name1Value === ""){
     //show error
-  } 
-  setErrorFor(name1,"This field is mandatory");
+    setErrorFor(name1,"This field is mandatory");
+  }
     else {
     //show success
     setSuccessFor(name1);
-  }
+  } 
+  
 }
+
 
 function setErrorFor(input, message){
   const line = input.parentElement;

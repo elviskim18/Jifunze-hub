@@ -74,7 +74,7 @@ input:focus, textarea:focus {
   outline: none;
 }
 
-/* .success #name1 {
+.form .success #name1 {
   border: 1px solid #4ECB71;
 
 }
@@ -90,7 +90,7 @@ input:focus, textarea:focus {
 .form .error i {
   visibility: visible;
   color: red;
-} */
+}
 
 .tutor1 {
   background-color: #4ECB71;
