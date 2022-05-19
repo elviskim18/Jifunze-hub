@@ -69,11 +69,28 @@
   color: #4ECB71;
 }
 
-input:focus {
-  background-color: #ddd;
+input:focus, textarea:focus {
+  background-color: #EADDDD;
   outline: none;
 }
 
+/* .success #name1 {
+  border: 1px solid #4ECB71;
+
+}
+.form .success i {
+  visibility: visible;
+  color: #4ECB71;
+}
+
+.form .error #email {
+  border: 1px solid red;
+
+}
+.form .error i {
+  visibility: visible;
+  color: red;
+} */
 
 .tutor1 {
   background-color: #4ECB71;
@@ -142,26 +159,52 @@ cursor: pointer;
   margin: 10px;
 }
 
+.form i {
+  position: absolute;
+  right: 30px;
+  visibility: hidden;
+}
+
+.line1 i {
+  position: absolute;
+  top: 165px;
+}
+.line2 i {
+  position: absolute;
+  top: 238px;
+}
+.line3 i {
+  position: absolute;
+  top: 311px;
+}
+.line4 i {
+  position: absolute;
+  top: 385px;
+}
+.line5 i {
+  position: absolute;
+  top: 455px;
+}
+
 #arrow {
   margin-top: 10px;
   display: flex;
   flex-direction: column;
 }
 
-#name, #email, #contact, #rate, #biography {
+#name1, #email, #contact, #rate, #biography {
   padding: 10px;
-  /* border-radius: 10px; */
   border: 1px solid #EADDDD;
   margin-bottom: 10px;
   width: 300px;
+  font-family: inherit;
 }
-#biography {
-  height: 100px;
-  position: top;
+textarea {
+  font-size: 15px;
 }
 
 label {
-  font-weight: 500;
+  font-weight: 550;
   font-size: large;
 }
 

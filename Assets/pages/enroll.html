@@ -57,24 +57,40 @@
         </div>
         <div class="form">
           <form action="" id="form">
-            <div class="tutor">
-              <label for="name"> First and Last Name</label> <br>
-              <input type="text" id="name" name="name" placeholder="John Doe" required><br>
+            <div class="line line1 error">
+              <label for="name1"> First and Last Name</label> <br>
+              <input type="text" id="name1" name="name1" placeholder="John Doe" required><br>
+              <i class="fas fa-check-circle"></i>
+              <i class="fas fa-exclamation-circle"></i>
+            </div>
+            <div class="line line2 ">
+              <label for="email"> Email Address</label> <br>
+              <input type="email" id="email" name="email"  placeholder="johndoe@gmail.com" required><br>
+              <i class="fas fa-check-circle"></i>
+              <i class="fas fa-exclamation-circle"></i>
+            </div>
+            <div class="line line3">
+              <label for="contact"> Phone Number</label><br>
+              <input type="tel" id="contact" name="contact"  placeholder="+254701234567" required><br>
+              <i class="fas fa-check-circle"></i>
+              <i class="fas fa-exclamation-circle"></i>
+            </div>
+            <div class="line line4">
+              <label for="rate"> Set up your hourly rate ($)</label><br>
+              <input type="$" id="rate" name="rate" placeholder="$12/hr" required><br>
+              <i class="fas fa-check-circle"></i>
+              <i class="fas fa-exclamation-circle"></i>
+            </div>
+            <div class="line line5">
+              <label for="biography"> About you</label><br>
+              <textarea id="biography" name="biography" placeholder="My name is John and I have been a tutor for..."required style="height: 100px;"></textarea><br>
+              <p style="text-align: end; font-size:10px; margin-top: -15px;">Min; 75 words</p>
               <i class="fas fa-check-circle"></i>
               <i class="fas fa-exclamation-circle"></i>
             </div>
               
-              <label for="email"> Email Address</label> <br>
-              <input type="email" id="email" name="email"  placeholder="johndoe@gmail.com" required><br>
-              <label for="contact"> Phone Number</label><br>
-              <input type="tel" id="contact" name="contact"  placeholder="+254701234567" required><br>
-              <label for="rate"> Set up your hourly rate ($)</label><br>
-              <input type="$" id="rate" name="rate" value="" placeholder="$12/hr" required><br>
-              <label for="biography"> About you</label><br>
-              <textarea id="biography" name="biography" placeholder="My name is John and I have been a tutor for..."required style="height: 100px;"></textarea><br>
-              
               <div  id="arrow">
-                <a href="#">Submit</a>
+                <a href="#" id="submit">Submit</a>
                 <button type="button" class="formDown" onclick="closeForm()">Maybe Later</button> 
               </div>
             
