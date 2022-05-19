@@ -218,7 +218,7 @@ cursor: pointer;
 .enrol {
   max-height: 70vh;
   overflow-y: scroll;
-  display: ;
+  display: none;
   box-sizing: border-box;
   background-color: white;
   margin: auto;
