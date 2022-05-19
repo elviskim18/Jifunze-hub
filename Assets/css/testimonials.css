@@ -8,7 +8,7 @@ body{
     font-family: nunito;
 }
 .main-container{
-    margin-left: 130px;
+   
     justify-content: center;
 }
 .nav-container{
@@ -75,16 +75,33 @@ body{
 
 .container-0{
     display: flex;
-    gap: 40px;
+    flex-direction: row;
+    gap: 20px;
+    overflow-x: auto;
+}
+/*Add scroll bar in chrome*/
+.container-0::-webkit-scrollbar{
+    display: none;
+}
+/*Add scroll bar in firefox*/
+.container-0{
+    -ms-overflow-style:none;
+    scrollbar-width: none;
 }
 /* image container 1 */
 .head-container{
     margin-top: 50px;
     margin-left: 70px;
 }
+.container-1{
+    margin-left: 20px;
+}
+.container-2{
+    
+}
 .container-holder{
     background-color: white;
-    width: 700px;
+    width: 650px;
     height: auto;
     display: flex;
     justify-content: space-between;
@@ -113,9 +130,9 @@ body{
 
 }
 #right{
-    margin-left: 270px;
+    margin-left: 200px;
     color: #7ADD9E;
-    font-size: 50PX;
+    font-size: 40PX;
   
 }
 #left{
@@ -125,7 +142,7 @@ body{
 }
 .container-holder1{
     background-color: white;
-    width: 690px;
+    width: 650px;
     height: 300px;
     display: flex;
     justify-content: space-between;
@@ -138,7 +155,7 @@ body{
 }
 .container-holder2{
     background-color: white;
-    width: 690px;
+    width: 650px;
     height: 330px;
     display: flex;
     justify-content: space-between;
