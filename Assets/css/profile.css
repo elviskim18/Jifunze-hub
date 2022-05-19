@@ -5,7 +5,8 @@
 }
 body{
     background-color: #EADDDD;
-    font-family: 'Nunito', sans-serif
+    font-family: 'Nunito', sans-serif;
+
 }
 .main-container{
 
@@ -28,6 +29,7 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
+
 }
 .navbar > .navbar-nav > .nav-items > ul{
     list-style-type: none;
@@ -36,7 +38,7 @@ body{
     justify-content: space-evenly;
     flex-direction: row;
     font-size: 20px;
-    margin-right: 100px;
+    margin-right: 10px;
 }
 .navbar > .navbar-nav > .nav-items > ul > li > a{
     text-decoration: none;
