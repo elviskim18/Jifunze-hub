@@ -1,130 +1,39 @@
-//function to redirect the button to the next page
+// function to validate data on signup form
+function signup(event){
+    event.preventDefault();
 
+    let firstName = document.getElementById("firstName").value;
+    let lastName = document.getElementById("lastName").value;
+    let email = document.getElementById("email").value;
+    let password = document.getElementById("password").value;
 
-const usernameEl = document.querySelector('#username');
-const passwordEl = document.querySelector('#password');
+    localStorage.setItem("first_name", firstName);
+    localStorage.setItem("last_name", lastName);
+    localStorage.setItem("Is_email", email);
+    localStorage.setItem("pass_word", password);
 
-const form = document.querySelector('#login');
-
-// validates username details
-const checkUsername = () => {
-
-    let valid = false;
-
-    const min = 3,
-        max = 25;
-
-    const username = usernameEl.value.trim();
-
-    if (!isRequired(username)) {
-        showError(usernameEl, 'Username cannot be blank.');
-    } else if (!isBetween(username.length, min, max)) {
-        showError(usernameEl, `Username must be between ${min} and ${max} characters.`)
-    } else {
-        showSuccess(usernameEl);
-        valid = true;
+    function redirect(){
+        window.location.href="../pages/courses.html"
     }
-    return valid;
-};
-
-// validates password details
-const checkPassword = () => {
-    let valid = false;
-
-
-    const password = passwordEl.value.trim();
-
-    if (!isRequired(password)) {
-        showError(passwordEl, 'Password cannot be blank.');
-    } else if (!isPasswordSecure(password)) {
-        showError(passwordEl, 'Password must has at least 8 characters that include at least 1 lowercase character, 1 uppercase characters, 1 number, and 1 special character in (!@#$%^&*)');
-    } else {
-        showSuccess(passwordEl);
-        valid = true;
-    }
-
-    return valid;
-};
-
-// check if password is secure
-const isPasswordSecure = (password) => {
-    const re = new RegExp("^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\$%\^&\*])(?=.{8,})");
-    return re.test(password);
-};
-
-const isRequired = value => value === '' ? false : true;
-const isBetween = (length, min, max) => length < min || length > max ? false : true;
-
-const showError = (input, message) => {
-    // get the form-field element
-    const formField = input.parentElement;
-    // add the error class
-    formField.classList.remove('success');
-    formField.classList.add('error');
-
-    // show the error message
-    const error = formField.querySelector('small');
-    error.textContent = message;
-};
-
-
-const showSuccess = (input) => {
-    // get the form-field element
-    const formField = input.parentElement;
-
-    // remove the error class
-    formField.classList.remove('error');
-    formField.classList.add('success');
-
-    // hide the error message
-    const error = formField.querySelector('small');
-    error.textContent = '';
+    redirect()
 }
 
 
-form.addEventListener('submit', function (e) {
-    // prevent the form from submitting
-    e.preventDefault();
+// login functionality
+function login(event){
+    event.preventDefault();
 
-    // validate fields
-    let isUsernameValid = checkUsername(),
-        isPasswordValid = checkPassword(),
-        
-    isFormValid = isUsernameValid &&
-        isPasswordValid;
+    let username = document.getElementById("username").value;
+    let password = document.getElementById("password").value;
+    
+    localStorage.setItem("username", username);
+    localStorage.setItem("pass_word", password);
 
-    // submit to the server if the form is valid
-    if (isFormValid) {
-        
-        
+    function redirect(){
+        window.location.href="../pages/courses.html"
     }
-});
+    redirect()
 
-const debounce = (fn, delay = 500) => {
-    let timeoutId;
-    return (...args) => {
-        // cancel the previous timer
-        if (timeoutId) {
-            clearTimeout(timeoutId);
-        }
-        // setup a new timer
-        timeoutId = setTimeout(() => {
-            fn.apply(null, args)
-        }, delay);
-    };
-};
+}
 
-form.addEventListener('input', debounce(function (e) {
-    switch (e.target.id) {
-        case 'username':
-            checkUsername();
-            break;
-        case 'password':
-            checkPassword();
-            break;
-        
-    }
-    document.getElementById("submit").onclick = function () {
-        location.href = "/Assets/pages/signup.html";
-    }
-}));
+
