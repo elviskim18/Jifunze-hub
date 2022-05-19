@@ -101,7 +101,7 @@ body{
 .container-holder{
     background-color: white;
     width: 650px;
-    height: auto;
+    max-height: 350px;
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
