@@ -337,6 +337,10 @@ label {
   font-weight: bolder;
 }
 
+/* footer */
+.footer i {
+  margin-left: 20px;
+}
 .footer{
   background-color: black;
   padding: 30px 100px;
