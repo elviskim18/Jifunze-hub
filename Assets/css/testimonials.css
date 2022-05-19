@@ -96,9 +96,7 @@ body{
 .container-1{
     margin-left: 20px;
 }
-.container-2{
-    
-}
+
 .container-holder{
     background-color: white;
     width: 650px;
@@ -156,13 +154,12 @@ body{
 .container-holder2{
     background-color: white;
     width: 650px;
-    height: 330px;
+    height: 300px;
     display: flex;
     justify-content: space-between;
     margin-top: 100px;
     border-radius: 90px;
     padding-bottom: 30px;
-    gap: 50px;
    
 }
 
