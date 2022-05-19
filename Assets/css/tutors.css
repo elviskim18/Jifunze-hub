@@ -84,10 +84,13 @@ body{
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
-h3{
-    font-weight: bolder;
+.t-title{
     text-align: center;
-
+    font-weight: lighter;
+    font-size: 2em;
+}
+h3{
+    text-align: center;
 }
 .tutprofile{
     height: 75vh;
