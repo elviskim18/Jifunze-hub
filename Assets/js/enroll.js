@@ -70,3 +70,17 @@ var email = document.forms["form"][email];
 var contact = document.forms["form"][contact];
 var rate = document.forms["form"][rate];
 var biography = document.forms["form"][biography];
+
+var nameError = document.getElementById("nameError");
+var emailError = document.getElementById("emailError");
+var contactError = document.getElementById("contactError");
+var rateError = document.getElementById("rateError");
+var bioError = document.getElementById("bioError");
+
+function validated (){
+  if (name1.value.length == ""){
+    name1.style.border = "1px solid red";
+    name1.focus();
+    return false;
+  }
+}
