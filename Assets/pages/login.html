@@ -13,19 +13,23 @@
 </head>
 <body>
     <main>
+        <script id="replace_with_navbar" src="/Assets/js/nav.js"></script>
         <div class="container">
             <div class="screen">
                 <div class="screen__content">
-                    <form class="login">
+                    <form class="login" method="post">
                         <div class="login__field">
                             <i class="login__icon fas fa-user"></i>
-                            <input type="text" class="login__input" placeholder="User name / Email">
+                            <input type="text" class="login__input" id="username" placeholder="User name / Email" required>
+                            <small></small>
                         </div>
                         <div class="login__field">
                             <i class="login__icon fas fa-lock"></i>
-                            <input type="password" class="login__input" placeholder="Password">
+                            <input type="password" class="login__input" id="password" placeholder="Password" required>
+                            <small></small>
                         </div>
-                        <button class="button login__submit">
+                        <a href="/index.html" class="class"></a>
+                        <button class="button login__submit" value="login" id="submit">
                             <span class="button__text">Log In Now</span>
                             <i class="button__icon fas fa-chevron-right"></i>
                         </button>
@@ -52,6 +56,6 @@
             </div>
         </div>
     </main>
-    
+    <script src="/Assets/js/login.js"></script>
 </body>
 </html>
