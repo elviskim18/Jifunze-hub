@@ -8,7 +8,7 @@ body{
     font-family: nunito;
 }
 .main-container{
-    margin-left: 130px;
+
     justify-content: center;
 }
 .nav-container{
@@ -68,85 +68,90 @@ body{
 .navbar > .navbar-nav > .nav-items > ul > li > button > a:hover{
     color: green;
 }
-
- 
-/* main container */
-.main-container{
-    justify-content: space-around;
+/* context container */
+.profile-container{
+    width: 80%;
+    height: 1100px;
+    border-radius: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.profile-text p{
+    background-color: #4ECB71;
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    text-align: center;
 
 }
-/* image container 1 */
-.head-container{
+.profile-text{
+    margin: auto;
+   
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.image-logo{
     margin-top: 50px;
-    margin-left: 70px;
-}
-.container-holder{
-    background-color: white;
-    width: 690px;
-    height: 300px;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 30px;
-    border-radius: 90px;
-
+    margin-left: 60px;
 
 }
-.image-container p{
-    margin-top: 30px;
-    margin-left: 100px;
-    font-size: 25px;
+.profile-text h2{
+    font-weight: 200;
+    min-width: 50%;
 }
+.profile-text p{
+    text-align: center;
+    padding: 15px;
+}
+.text1{
+    margin: 30px;
+}
+.text2{
+    margin-left: -400px;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
 
- .image-container img{ 
-    border-radius: 100px; 
-     width: 200px; 
-     margin-left: 70px; 
-     margin-top: 20px; 
-} 
-.text-container p{
-    margin-top: 100px;
-    margin-right: 30px;
     
-
-
 }
-#right{
-    margin-left: 270px;
-    color: #7ADD9E;
-    font-size: 50PX;
-  
-}
-#left{
-    font-size: 40px;
-    color: #7ADD9E;
 
-}
-.container-holder1{
-    background-color: white;
-    width: 690px;
-    height: 300px;
+.box1, .box2, .box3, .box4 {
     display: flex;
-    justify-content: space-between;
-    margin-top: 100px;
-    border-radius: 90px;
-    gap: 50px;
-   
+    margin: 50px;
     
-
 }
-.container-holder2{
-    background-color: white;
-    width: 690px;
-    height: 330px;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 100px;
-    border-radius: 90px;
-    padding-bottom: 30px;
-    gap: 50px;
-   
+#txtbox1{
+    margin-left: -350px;
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: #EADDDD;
 }
-
+.bio{
+    margin: auto;
+    height: 200px;
+    background-color: #4ECB71;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    margin-left: -20px;
+}
+.bio a{
+    padding: 3px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    float: right;
+    border-radius: 9px;
+    margin-top: 30px;
+}
+.bio a:hover{
+    color: white;
+}
 /* footer */
 .footer{
     margin-top: 80px;
@@ -183,4 +188,5 @@ body{
 .footer > .footer-header > .footer-contents > .social-icons > a{
     color: white;
 }
+
 
