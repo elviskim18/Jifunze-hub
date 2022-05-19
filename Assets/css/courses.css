@@ -193,7 +193,7 @@ input:focus, textarea:focus {
   padding: 15px 10px;
   border: none;
   cursor: pointer;
-  opacity: 0.7;
+  opacity: 1;
   position: fixed;
   bottom: 20px;
   right: 20px;
@@ -218,7 +218,7 @@ cursor: pointer;
 .enrol {
   max-height: 70vh;
   overflow-y: scroll;
-  display: none;
+  display: ;
   box-sizing: border-box;
   background-color: white;
   margin: auto;
