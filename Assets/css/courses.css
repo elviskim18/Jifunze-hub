@@ -187,6 +187,7 @@ input:focus, textarea:focus {
 .tutor1 {
   background-color: #4ECB71;
   color: white;
+  border-radius: 50%;
   font-weight: 900;
   font-size: large;
   padding: 15px 10px;
@@ -196,7 +197,7 @@ input:focus, textarea:focus {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  width: 200px;
+  width: 90px;
 }
 
 #arrow button {
@@ -215,6 +216,8 @@ cursor: pointer;
 }
 
 .enrol {
+  max-height: 70vh;
+  overflow-y: scroll;
   display: none;
   box-sizing: border-box;
   background-color: white;
@@ -224,7 +227,7 @@ cursor: pointer;
   margin-top: 50px;
   border-radius: 20px;
   border: 2px solid #4ECB71;
-  position: fixed;
+  position:fixed;
   right: 20px;
   bottom: 20px;
 }
