@@ -98,7 +98,7 @@ main{
     font-weight: lighter;
 }
 
-.section-1 > .section-header > .get-started > button{
+.section-1 > .section-header > .get-started > a > button{
     background-color: #4ECB71;
     color: white;
     border: none;

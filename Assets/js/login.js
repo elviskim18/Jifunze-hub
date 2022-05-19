@@ -88,14 +88,14 @@ form.addEventListener('submit', function (e) {
 
     // validate fields
     let isUsernameValid = checkUsername(),
-        isPasswordValid = checkPassword(),
+        isPasswordValid = checkPassword()
         
-    isFormValid = isUsernameValid &&
+    let isFormValid = isUsernameValid &&
         isPasswordValid;
 
     // submit to the server if the form is valid
     if (isFormValid) {
-        
+        window.location.href="index.html";
         
     }
 });
@@ -123,8 +123,5 @@ form.addEventListener('input', debounce(function (e) {
             checkPassword();
             break;
         
-    }
-    document.getElementById("submit").onclick = function () {
-        location.href = "/Assets/pages/signup.html";
     }
 }));
