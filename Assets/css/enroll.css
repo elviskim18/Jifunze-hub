@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Nunito', sans-serif;
+  box-sizing: border-box;
 
 
 }
@@ -9,6 +10,7 @@
 .section {
   background-color: #EADDDD;
   width: 100%;
+  padding-bottom: 50px;
 }
 
 .navbar > .navbar-nav{
@@ -40,7 +42,7 @@
   border-right: 2px solid black;
 }
 .navbar > .navbar-nav > .nav-items > ul > li > a:hover{
-  color: green;
+  color: #4ECB71;
 }
 .navbar > .navbar-nav > .nav-items > ul > li > button {
   margin-left: 10px;
@@ -50,11 +52,13 @@
   font-size: 13px;
   border-radius: 5px;
   margin-top: -20px;
+  font-weight: 600;
 }
 .navbar > .navbar-nav > .nav-items > ul > li > button:hover{
   background-color: white;
-  color: green;
-  border: 1px solid green;
+  color: #4ECB71;
+  border: 1px solid #4ECB71;
+  font-weight: 900;
 }
 .navbar > .navbar-nav > .nav-items > ul > li > button > a{
   color: black;
@@ -62,105 +66,9 @@
   font-size: 15px;
 }
 .navbar > .navbar-nav > .nav-items > ul > li > button > a:hover{
-  color: green;
+  color: #4ECB71;
 }
 
-.row {
-  display: flex;
-  justify-content: center;
-}
-
-.row p {
-text-align:justify;
-}
-
-.courses img {
-  width: 300px;
-  height: 250px;
-  border-radius: 20px 20px 0 0;
-}
-
-.heading h1, .heading p {
-  text-align: center;
-  padding: 10px;
-  color: #010c05;
-  font-size: large;
-  font-weight: bold;
-  
-}
-.heading h1 {
-  font-size: xx-large;
-  margin-top: 20px;
-  font-weight:900;
-}
-.courses h4, #rating {
-  font-size: larger;
-  text-decoration: none;
-  margin: 5px 5px 15px 5px;
-}
-
-.checked {
-  color: orange;
-}
-
-#arrow a {
-  font-size: 15px;
-  background-color: #4ECB71;
-  color: black;
-  padding: 8px;
-  border-radius: 10px;
-  font-weight: bolder;
-  text-decoration: none;
-}
-#arrow a:hover{
-  background-color: white;
-  border: 1px solid green;
-  color: green;
-}
-
-#arrow span {
-  color: rgb(205, 248, 12);
-}
-
-.appDev, .data-science, .Database, .cloud {
-  background-color: white;
-  margin: 50px 70px;
-  text-align: center;
-  width: 300px;
-  padding: 20px 20px 20px 20px;
-  border-radius: 20px;
-}
-
-h4 {
-  font-size: 30px;
-  color: #000000;
-  font-weight: bolder;
-}
-
-a:hover {
-  color: rgb(172, 59, 187);
-}
-
-.text {
-  min-height: 110px;
-}
-
-.duration, .cost {
-  background-color: #EADDDD;
-  margin: 10px 0 10px;
-  padding: 10px;
-  border-radius: 10px;
-}
-.cost {
-  margin-bottom: 20px;
-}
-span {
-  font-weight: bolder;
-  font-size: larger;
-}
-
-
-/* Pop-up enrol form */
 input:focus, textarea:focus {
   background-color: #EADDDD;
   outline: none;
@@ -187,7 +95,6 @@ input:focus, textarea:focus {
 .tutor1 {
   background-color: #4ECB71;
   color: white;
-  border-radius: 50%;
   font-weight: 900;
   font-size: large;
   padding: 15px 10px;
@@ -197,7 +104,7 @@ input:focus, textarea:focus {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  width: 90px;
+  width: 200px;
 }
 
 #arrow button {
@@ -216,8 +123,6 @@ cursor: pointer;
 }
 
 .enrol {
-  max-height: 70vh;
-  overflow-y: scroll;
   display: none;
   box-sizing: border-box;
   background-color: white;
@@ -227,7 +132,7 @@ cursor: pointer;
   margin-top: 50px;
   border-radius: 20px;
   border: 2px solid #4ECB71;
-  position:fixed;
+  position: fixed;
   right: 20px;
   bottom: 20px;
 }
