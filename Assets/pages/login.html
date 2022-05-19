@@ -17,7 +17,7 @@
         <div class="container">
             <div class="screen">
                 <div class="screen__content">
-                    <form class="login" onsubmit="login(event)">
+                    <form class="login" method="post">
                         <div class="login__field">
                             <i class="login__icon fas fa-user"></i>
                             <input type="text" class="login__input" id="username" placeholder="User name / Email" required>
@@ -28,12 +28,11 @@
                             <input type="password" class="login__input" id="password" placeholder="Password" required>
                             <small></small>
                         </div>
-
+                        <a href="/index.html" class="class"></a>
                         <button class="button login__submit" value="login" id="submit">
-                            <span class="button__text">Login</span>
+                            <span class="button__text">Log In Now</span>
                             <i class="button__icon fas fa-chevron-right"></i>
                         </button>
-                        
                         
                         <div class="login__field" style="width: 400px; padding: 10px 0;">
                             <p id="create-account">Don't have an account? <a href="/Assets/pages/signup.html">create account</a></p>

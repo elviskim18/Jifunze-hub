@@ -5,7 +5,7 @@
 }
 body{
     background-color: #EADDDD;
-    font-family: 'Nunito', sans-serif;
+    font-family: nunito;
 }
 .main-container{
 
@@ -28,7 +28,6 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-
 }
 .navbar > .navbar-nav > .nav-items > ul{
     list-style-type: none;
@@ -37,7 +36,7 @@ body{
     justify-content: space-evenly;
     flex-direction: row;
     font-size: 20px;
-    margin-right: 10px;
+    margin-right: 100px;
 }
 .navbar > .navbar-nav > .nav-items > ul > li > a{
     text-decoration: none;
@@ -110,7 +109,6 @@ body{
 }
 .text1{
     margin: 30px;
-    margin-left: -60px;
 }
 .text2{
     margin-left: -400px;
@@ -127,34 +125,32 @@ body{
     margin: 50px;
     
 }
-
-.bio{
+#txtbox1{
+    margin-left: -350px;
     width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: #EADDDD;
+}
+.bio{
+    margin: auto;
     height: 200px;
     background-color: #4ECB71;
     margin-bottom: 20px;
     border-radius: 10px;
-    margin-left: 30px;
-    padding-right: 10px;
+    margin-left: -20px;
 }
 .bio a{
+    padding: 3px;
     font-size: 20px;
     text-decoration: none;
-    color: blue;
+    color: black;
     float: right;
     border-radius: 9px;
     margin-top: 30px;
-    
-    
 }
 .bio a:hover{
     color: white;
-}
-.bio h5{
-    font-weight: 400;
-    font-size: 1.1em;
-    padding-left: 5px;
-    
 }
 /* footer */
 .footer{

@@ -193,7 +193,7 @@ input:focus, textarea:focus {
   padding: 15px 10px;
   border: none;
   cursor: pointer;
-  opacity: 0.7;
+  opacity: 1;
   position: fixed;
   bottom: 20px;
   right: 20px;

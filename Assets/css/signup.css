@@ -8,20 +8,14 @@
 }
 
 body {
-	background: linear-gradient(90deg, #C7C5F4, #EADDDD);
-    background-image: url(../images/jeswin-thomas-guLAk5gqj-Y-unsplash.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    		
+	background: linear-gradient(90deg, #C7C5F4, #EADDDD);		
 }
 
 .container {
-    
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	max-height: 100vh;
-    overflow: hidden;
+	min-height: 100vh;
 }
 
 .screen {		
