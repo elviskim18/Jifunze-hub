@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="/Assets/css/signup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Actor&family=Adamina&family=Nunito&family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/327b6324f1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="screen">
+                <div class="screen__content">
+                    <form class="login">
+                        <div class="login__field">
+                            <i class="login__icon fas fa-user"></i>
+                            <input type="text" class="login__input" placeholder="First Name" required>
+                        </div>
+
+                        <div class="login__field">
+                            <i class="login__icon fas fa-user"></i>
+                            <input type="text" class="login__input" placeholder="Last Name" required>
+                        </div>
+
+                        <div class="login__field">
+                            <i class="login__icon fas fa-user"></i>
+                            <input type="email" class="login__input" placeholder="Email" required>
+                        </div>
+
+                        <div class="login__field">
+                            <i class="login__icon fas fa-lock"></i>
+                            <input type="password" class="login__input" placeholder="Password" required minlength="8">
+                        </div>
+                        <button class="button login__submit" onclick="submitButton()">
+                            <span class="button__text">signup</span>
+                            <i class="button__icon fas fa-chevron-right"></i>
+                        </button>
+                        
+                        <div class="login__field" style="width: 400px; padding: 10px 0;">
+                            <p id="create-account">Already have an account? <a href="/Assets/pages/login.html">login</a></p>
+                        </div>
+                    </form>
+                    <div class="social-login">
+                        <h3>log in via</h3>
+                        <div class="social-icons">
+                            <a href="#" class="social-login__icon fab fa-instagram"></a>
+                            <a href="#" class="social-login__icon fab fa-facebook"></a>
+                            <a href="#" class="social-login__icon fab fa-twitter"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="screen__background">
+                    <span class="screen__background__shape screen__background__shape4"></span>
+                    <span class="screen__background__shape screen__background__shape3"></span>		
+                    <span class="screen__background__shape screen__background__shape2"></span>
+                    <span class="screen__background__shape screen__background__shape1"></span>
+                </div>		
+            </div>
+        </div>
+    </main>
+    <script src="/Assets/js/login.js"></script>
+</body>
+</html>
