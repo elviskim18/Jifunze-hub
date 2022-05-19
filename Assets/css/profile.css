@@ -5,7 +5,7 @@
 }
 body{
     background-color: #EADDDD;
-    font-family: nunito;
+    font-family: 'Nunito', sans-serif
 }
 .main-container{
 
@@ -109,6 +109,7 @@ body{
 }
 .text1{
     margin: 30px;
+    margin-left: -60px;
 }
 .text2{
     margin-left: -400px;
@@ -138,7 +139,7 @@ body{
     background-color: #4ECB71;
     margin-bottom: 20px;
     border-radius: 10px;
-    margin-left: -20px;
+    margin-left: -60px;
 }
 .bio a{
     padding: 3px;

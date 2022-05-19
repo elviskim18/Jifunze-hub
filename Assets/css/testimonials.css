@@ -71,9 +71,11 @@ body{
 
  
 /* main container */
-.main-container{
-    justify-content: space-around;
 
+
+.container-0{
+    display: flex;
+    gap: 40px;
 }
 /* image container 1 */
 .head-container{
@@ -82,8 +84,8 @@ body{
 }
 .container-holder{
     background-color: white;
-    width: 690px;
-    height: 300px;
+    width: 700px;
+    height: auto;
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
