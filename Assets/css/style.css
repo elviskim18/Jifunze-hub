@@ -6,6 +6,9 @@ body{
     padding: 0;
     background-color: #EADDDD;
     font-family: 'Nunito', sans-serif;
+    background-image: url(/Assets/images/homepage-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 main{
@@ -66,6 +69,7 @@ main{
 .navbar > .navbar-nav > .nav-items > ul > li > button:hover{
     background-color: white;
     color: green;
+    border: 2px solid green;
 }
 
 .navbar > .navbar-nav > .nav-items > ul > li > button > a{
@@ -110,9 +114,11 @@ main{
     font-size: 20px;
 }
 
-.section-1 > .section-header > .get-started > button:hover{
+.section-1 > .section-header > .get-started > a > button:hover{
     background-color: white;
     color: green;
+    border: 2px solid #4ECB71;
+    cursor: pointer;
 }
 
 
@@ -181,6 +187,7 @@ main{
 .footer > .footer-header > .footer-contents > .content > ul > li > a:hover{
     text-decoration: underline;
     color: #4ECB71;
+    
 }
 
 .footer > .footer-header > .footer-contents > .social-icons > a{
