@@ -65,4 +65,8 @@ function validateForm(){
     return false
   }
 }
-
+var name1 = document.forms["form"][name1];
+var email = document.forms["form"][email];
+var contact = document.forms["form"][contact];
+var rate = document.forms["form"][rate];
+var biography = document.forms["form"][biography];
