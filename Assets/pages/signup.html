@@ -17,27 +17,27 @@
         <div class="container">
             <div class="screen">
                 <div class="screen__content">
-                    <form class="login">
+                    <form class="login" onsubmit="signup(event)">
                         <div class="login__field">
                             <i class="login__icon fas fa-user"></i>
-                            <input type="text" class="login__input" placeholder="First Name" required>
+                            <input type="text" class="login__input" id="firstName" placeholder="First Name" required>
                         </div>
 
                         <div class="login__field">
                             <i class="login__icon fas fa-user"></i>
-                            <input type="text" class="login__input" placeholder="Last Name" required>
+                            <input type="text" class="login__input" id="lastName" placeholder="Last Name" required>
                         </div>
 
                         <div class="login__field">
                             <i class="login__icon fas fa-user"></i>
-                            <input type="email" class="login__input" placeholder="Email" required>
+                            <input type="email" class="login__input" id="email" placeholder="Email" required>
                         </div>
 
                         <div class="login__field">
                             <i class="login__icon fas fa-lock"></i>
-                            <input type="password" class="login__input" placeholder="Password" required minlength="8">
+                            <input type="password" class="login__input" id="password" placeholder="Password" required minlength="8">
                         </div>
-                        <button class="button login__submit" onclick="submitButton()">
+                        <button class="button login__submit">
                             <span class="button__text">signup</span>
                             <i class="button__icon fas fa-chevron-right"></i>
                         </button>
