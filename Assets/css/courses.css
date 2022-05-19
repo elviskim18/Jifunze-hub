@@ -176,24 +176,6 @@ input:focus, textarea:focus {
   outline: none;
 }
 
-.form .success #name1 {
-  border: 1px solid #4ECB71;
-
-}
-.form .success i {
-  visibility: visible;
-  color: #4ECB71;
-}
-
-.form .error #email {
-  border: 1px solid red;
-
-}
-.form .error i {
-  visibility: visible;
-  color: red;
-}
-
 .tutor1 {
   background-color: #4ECB71;
   color: white;
@@ -205,7 +187,7 @@ input:focus, textarea:focus {
   cursor: pointer;
   opacity: 1;
   position: fixed;
-  bottom: 20px;
+  bottom: 40vh;
   right: 20px;
   width: 90px;
 }
@@ -265,32 +247,6 @@ cursor: pointer;
   margin: 10px;
 }
 
-.form i {
-  position: absolute;
-  right: 30px;
-  visibility: hidden;
-}
-
-.line1 i {
-  position: absolute;
-  top: 165px;
-}
-.line2 i {
-  position: absolute;
-  top: 238px;
-}
-.line3 i {
-  position: absolute;
-  top: 311px;
-}
-.line4 i {
-  position: absolute;
-  top: 385px;
-}
-.line5 i {
-  position: absolute;
-  top: 455px;
-}
 
 #arrow {
   margin-top: 10px;
