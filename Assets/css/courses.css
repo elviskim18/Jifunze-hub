@@ -75,7 +75,7 @@ text-align:justify;
 }
 
 .courses img {
-  width: 300px;
+  width: 28vw;
   height: 250px;
   border-radius: 20px 20px 0 0;
 }
@@ -126,7 +126,7 @@ text-align:justify;
   background-color: white;
   margin: 50px 70px;
   text-align: center;
-  width: 300px;
+  width: 30vw;
   padding: 20px 20px 20px 20px;
   border-radius: 20px;
 }
@@ -337,6 +337,10 @@ label {
   font-weight: bolder;
 }
 
+/* footer */
+.footer i {
+  margin-left: 20px;
+}
 .footer{
   background-color: black;
   padding: 30px 100px;
