@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Kurale&family=Nunito:wght@200&family=Roboto+Flex:opsz,wght@8..144,300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../css/courses.css">
+  <script src="../js/enroll.js"></script>
   <title>JIFUNZE</title>
 </head>
 <body>
@@ -157,6 +158,62 @@
         </div>
       </div>
     </div>
+  </section>
+
+  <!-- Pop-up enrol form -->
+  <button class="tutor1" onclick="openForm()">Enrol as a Tutor</button>
+    
+    <section class="enrol" id="tutorForm">
+      <div class="enroll" id="tutorForm">
+        <div class="img">
+          <img src="../images/avatar.png" alt="Avatar" class="avatar">
+          <div>
+            <button type="button" id="button">Edit</button>
+          </div>
+        </div>
+        <div class="form">
+          <form action="" id="form">
+            <div class="line line1">
+              <label for="name1"> First and Last Name</label> <br>
+              <input type="text" id="name1" name="name1" placeholder="John Doe" required><br>
+              <i class="fas fa-check-circle"></i>
+              <i class="fas fa-exclamation-circle"></i>
+            </div>
+            <div class="line line2">
+              <label for="email"> Email Address</label> <br>
+              <input type="email" id="email" name="email"  placeholder="johndoe@gmail.com" required><br>
+              <i class="fas fa-check-circle"></i>
+              <i class="fas fa-exclamation-circle"></i>
+            </div>
+            <div class="line line3">
+              <label for="contact"> Phone Number</label><br>
+              <input type="tel" id="contact" name="contact"  placeholder="+254701234567" required><br>
+              <i class="fas fa-check-circle"></i>
+              <i class="fas fa-exclamation-circle"></i>
+            </div>
+            <div class="line line4">
+              <label for="rate"> Set up your hourly rate ($)</label><br>
+              <input type="$" id="rate" name="rate" placeholder="$12/hr" required><br>
+              <i class="fas fa-check-circle"></i>
+              <i class="fas fa-exclamation-circle"></i>
+            </div>
+            <div class="line line5">
+              <label for="biography"> About you</label><br>
+              <textarea id="biography" name="biography" placeholder="My name is John and I have been a tutor for..."required style="height: 100px;"></textarea><br>
+              <p style="text-align: end; font-size:10px; margin-top: -15px;">Min; 75 words</p>
+              <i class="fas fa-check-circle"></i>
+              <i class="fas fa-exclamation-circle"></i>
+            </div>
+              
+              <div  id="arrow">
+                <a href="#" id="submit">Submit</a>
+                <button type="button" class="formDown" onclick="closeForm()">Maybe Later</button> 
+              </div>
+            
+          </form>
+        </div>
+      </div>
+    </section>
   </section>
 
   <!-- footer -->
