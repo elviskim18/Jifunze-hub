@@ -64,7 +64,7 @@ change directory using command
 - $cd jifunze-hub
 
 #### method two
- - run the following live link in your browser 
+ - run the following live link in your browser https://elviskim18.github.io/Jifunze-hub/index.html
 
 
 ***
