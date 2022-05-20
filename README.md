@@ -38,6 +38,8 @@ languages used are:
 - HTML :HTML5 -which is used to create the structure of the page
 - CSS :CSS4 -used to style the page
 - JS :-Used add functionality to the site
+## Figma designs
+https://www.figma.com/file/TdNLZ7gwOSgVQdEvQudEbG/JIFUNZE?node-id=0%3A1
 
 ### Features
  As a user you are able to:
